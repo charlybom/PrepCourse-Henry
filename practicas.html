@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Desplegable Horizontal</title>
+<link rel="stylesheet" type="text/css" href="practicas.css">
+  <!--
+	
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+    -->
+    </head>
+    <body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a>
+							<ul>
+								<li><a href="">Submenu1</a></li>
+								<li><a href="">Submenu2</a></li>
+								<li><a href="">Submenu3</a></li>
+								<li><a href="">Submenu4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="">Contacto</a></li>
+			</ul>
+		</div>
+        <div class="container">
+            <img src="https://img.freepik.com/psd-gratis/plantilla-banner-horizontal-ejercicio-entrenamiento-gimnasia_23-2149041409.jpg?w=826&t=st=1709420071~exp=1709420671~hmac=547df7afc22532d1677724af5e4758a886a6b89cab0b1dad8e335d493c130bbf" id="im1">
+          </div>  
+            <h1>
+            GYM ALERT
+          </h1>
+          <h2> hipertrofia</h2>
+          <!-- este es un ejemplo de cambio de texto con js-->
+          <p id="p1">COMO HAGO PARA CRECER MIS MUSCULOS</p>
+          <button id="boton">SIGUIENTE</button>
+          
+          <script src="proyecto1.js"></script>
+         
+         
+          <ul>
+            <li> <span id="li1" >El crecimiento muscular:</span> <span id="t1" >es un objetivo frecuentemente perseguido en los gimnasios, y aún sigue siendo más habitual entre los hombres. Las mujeres quieren definir y tonificar, pero el deseo de que sus músculos crezcan es más propio de culturistas.
+              Según los cánones de belleza imperantes, no es lo mismo lucir un cuerpo flaco aun estando en el peso ideal que uno robusto y bien moldeado. El de los hombres sanos y fuertes es un viejo cliché, sí, pero también un modo de verse bien y de asumir un reto para ponerse a prueba uno mismo.</span></li>
+              <li><span id="li2" >como se consigue la hipertrofia:</span> <span id="t2" >se consigue con una combinación de factores. Durante el entrenamiento, la carga y el tiempo resultan determinantes para generar tensión mecánica, que es la que provoca el daño muscular. Si se produce un estrés metabólico significativo en el que no se pierde tensión mecánica, se favorece la ganancia de masa muscular..</span></li> 
+              <li><span id="li3" >¿Cuándo crece el músculo?</span> <span id="t3"> Se estima que los músculos crecen después de entrenar. Durante el periodo de recuperación, el cuerpo repara las fibras lesionadas, por lo que un buen programa de entrenamiento donde los días de descanso estén bien fijados es fundamental.</span></li>
+              <li><span id="t4"></span></li>
+            </ul>
+          <p style="color:purple">tres tipos de hipertrofia</p>
+            <!-- <form id="fom1">
+              <select id="opciones"name="elige_opcion">'
+                <option id="sarcoplasmastica">sarcoplasmastica</option>
+                <option id="tension muscular">tension muscular</option>
+              </select>
+              <button id="boton3"onclick="mostrarAlerta()">aceptar </button>
+              
+           </form>
+          -->
+          <div class="botones">
+          <button id="boton1">PECTORALES </button>
+          <button id="boton2">BICEP Y TRICEP </button>
+          <button id="boton3">ESPALDA </button>
+          <button id="boton4">HOMBRO </button>
+          <button id="boton5">CUADRICEP </button>
+          <button id="boton6">GLUTEO </button>
+          <button id="boton7">FEMORAL </button>
+          <button id="boton9">PANTORRILA </button>
+          </div>
+            <!--creacion de la tabla-->
+            <table id="table1">
+            <tr>
+              <th>RANK</th>
+              <th>PECTORALES</th>
+              <th>REPETICIONES</th>
+              <th>RANK</th>
+              <th>BICEP</th>
+              <th>REPETICIONES</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>pec-flay</td>
+              <td>4 series de 10</td>
+              <td>5</td>
+              <td>Curl Alterno con mancuerna</td>
+              <td>4 Series de 10</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Press de banca</td>
+              <td>4 Series de 10</td>
+              
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Pull over</td>
+              <td>4 Series de 10</td>
+           </tr>
+           
+          </table>
+          
+           
+        
+          
+          <div class="container2">
+           <!--<img  src="https://scontent.fmex36-1.fna.fbcdn.net/v/t39.30808-6/251002069_4594857040606935_8219917437078254247_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEuPIa19ZzDdf9cfel_fxRSearUYRj4dJJ5qtRhGPh0kpMVEC3R2E6QuysZRwlo0GdsCTEx7QbSTfdoVM7AZAOC&_nc_ohc=Y0BHIzh789EAX_feodo&_nc_ht=scontent.fmex36-1.fna&oh=00_AfBfq7_UJFey-t-7pv5cUfFktzBheXn6SVIYh0ThlpS7rg&oe=6603E22E"id="im3">-->
+           <img  src="https://i.blogs.es/2ec672/athlete-biceps-body-38630/1366_2000.jpg" id="im4"/>
+           <img  src="https://scontent.fmex22-1.fna.fbcdn.net/v/t1.6435-9/117438148_2725533524388190_5192453331895513472_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=opKqvJkPaU8Ab7k2EMm&_nc_ht=scontent.fmex22-1.fna&oh=00_AfCFDRVOQzRGNaSQB0r2OHztTdNVmsyQO4UNAXJgN5QOYg&oe=66352AB0" id="im5"/>
+           <img  src="https://levantateyentrena.files.wordpress.com/2018/02/hipertrofia_ganar_masa_muscular-e1518467682148.jpg?w=1000" id="im6"/>
+           </div>
+           
+           <div class="contenedor4">
+           <!--incrustar video-->
+            <video controls id="mi_video">
+               <source src="https://www.lyfta.app/video/GymvisualMP4/24271201.mp4" 
+               type="video/mp4">
+               <source src="https://www.lyfta.app/video/GymvisualMP4/24271201.mp4"
+               type="video/ogg">
+               Video not supported.
+            </video>
+              <p id="text1"> TEXTO PRUEBA  </p>
+            </div>
+           <div class="contenedor2">
+           <video controls id="mi_video2">
+              <source src="https://www.lyfta.app/video/GymvisualMP4/00251201.mp4" 
+              type="video/mp4">
+              <source src="https://www.lyfta.app/video/GymvisualMP4/00251201.mp4"
+              type="video/ogg">
+              Video not supported.
+            </video>
+           </div>
+            <div class="contenedor5">
+            
+              <p id="text2" > TEXTO PRUEBA2 </p>
+              <p id="text3"> Texto de prueba3</p>
+              <p id="text4" > El curl alterno comprende que los codos deben estar pegados a la región lateral del cuerpo y se deben elevar las mancuernas de forma simultánea, girando las palmas de las manos hacia arriba y hacia afuera. De tal forma, se permite que al final de cada repetición, queden hacia fuera de forma ligera. </p>
+              <p id="text5"> Curl de bíceps inclinado con mancuernas, POSICIÓN INICIAL:Seleccione el peso adecuado de las mancuernas. Acuéstese en un banco con 30º de inclinación con una mancuerna en cada mano a cada lado de sus caderas. Deberia utilizar un agarre neutro. Contraiga el suelo pelvico y el core mientras mantiene su pecho levantado.EJECUCIÓN:Contrayendo los bíceps, doble los codos totalmente supinando las manos mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala.CONSEJOS: Mientras hace el ejercicio, mueva solo la articulación del codo, asegúrese de no mover ninguna otra parte de su cuerpo.</p>
+              <p id="text6"> Lo primero para  hacer el curl de bíceps con barra Z es cargar un peso adecuado para respetar la técnica y aislar lo máximo posible los músculos del brazo. Cuerpo erguido y pies separados a la anchura de los hombros aproximadamente. A continuación, eleva la barra hasta lograr una máxima concentración de los bíceps en la parte alta; pequeña pausa arriba y, al bajar, controla esa fase excéntrica sin dejar caer el peso rápidamente.Errores más comunes en el curl de bíceps con barra Z de pie
+                Arquear la espalda para facilitar el impulso
+                Echar los hombros hacia adelante
+                Separar excesivamente los codos del cuerpo y llevarlos ligeramente hacia atrás
+                No mantener fija la cadera y el core
+                Relajar las muñecas durante el ejercicio
+                Consejos para el curl de bíceps con barra Z de pie
+                Quizás no es lo más ortodoxo pero, los primeros días, puedes apoyar la espalda contra la pared o una columna para mantener la espalda recta. En ese caso, carga poco peso y aísla el bíceps lo más que puedas.  También los primeros días, igual con poco peso, mantén los codos completamente pegados al cuerpo hasta memorizar el ejercicio. En la parte más alta del ejercicio, cuando tengas el bíceps concentrado al máximo, aguanta medio o un segundo antes iniciar la fase excéntrica. Mirada al frente, core firme, pecho hacia afuera y muñecas sólidas.</p>
+            </div>
+          <div class="contenedor6">    
+            <video controls id="mi_video3">
+              <source src="https://www.lyfta.app/video/GymvisualMP4/03751201.mp4" 
+              type="video/mp4">
+              <source src="https://www.lyfta.app/video/GymvisualMP4/03751201.mp4"
+              type="video/ogg">
+              Video not supported.
+            </video>
+           
+            <!--incrustar video-->
+             <video controls id="mi_video4">
+                <source src="https://www.lyfta.app/video/GymvisualMP4/02851201.mp4" 
+                type="video/mp4">
+                <source src="https://www.lyfta.app/video/GymvisualMP4/02851201.mp4"
+                type="video/ogg">
+                Video not supported.
+             </video>
+             <video controls id="mi_video5">
+              <source src="https://www.lyfta.app/video/GymvisualMP4/03151201.mp4" 
+              type="video/mp4">
+              <source src="https://www.lyfta.app/video/GymvisualMP4/03151201.mp4"
+              type="video/ogg">
+              Video not supported.
+             </video>
+              <video controls id="mi_video6">
+                <source src="https://www.lyfta.app/video/GymvisualMP4/04471201.mp4" 
+                type="video/mp4">
+                <source src="https://www.lyfta.app/video/GymvisualMP4/04471201.mp4"
+                type="video/ogg">
+                Video not supported.
+             </video>
+           </div>
+                <!--<audio controls id="mi_audio">
+                <source src="https://www.example.com/EL_CANTO_DEL_BIRD.mp3" type="audio/mpeg">
+                <source src="D:\MUSICA 4K VIDEO\EL CANTO DEL BIRD - DJ DAVE (GUARACHA).mp3" type="audio/ogg">
+                Audio not supported.
+            </audio>
+          -->
+         
+          <script src="proyecto2.js"></script>   
+      
+       
+        
+	</body>
+</html>
