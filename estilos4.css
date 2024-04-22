@@ -278,7 +278,7 @@ body{
   color:black;
   width: 30%; /* Ancho del video al 50% del contenedor */
   height: 50%; /* Altura automática para mantener la proporción */
-  left: 100px; /* Mover la imagen hacia la izquierda */
+  left: 70px; /* Mover la imagen hacia la izquierda */
 }
 
 .pullover{
@@ -294,6 +294,6 @@ body{
   color:black;
   width: 30%; /* Ancho del video al 50% del contenedor */
   height: 50%; /* Altura automática para mantener la proporción */
-  left: 100px; /* Mover la imagen hacia la izquierda */
+  left: 70px; /* Mover la imagen hacia la izquierda */
   transform: translateY(-30px); /* Mueve el texto 20px hacia arriba */
 }
